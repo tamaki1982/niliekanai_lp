@@ -1,0 +1,18 @@
+@charset "utf-8";
+@media (max-width: 700px){
+    .hero{
+        padding-top: 120px;
+        padding-bottom: 200px;
+    }
+}
+@media (max-width: 500px){
+    .hero{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 670px){
+    .footer-right{
+        padding-top: 20px;
+    }
+}
