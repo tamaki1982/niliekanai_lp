@@ -85,9 +85,8 @@ a {
     background: #368f00;
 }
 .hero {
-    background: url(https://dl.dropboxusercontent.com/s/tqo3xnqndiqfryp/img_hero-min.jpg) center center no-repeat;
     background-size: cover;
-    padding: 150px 0px; /*背景画像の高さを確保*/
+    padding: 200px 0; /*背景画像の高さを確保*/
     position: relative; /*中の要素の基準値*/
 }
 .hero:before {
@@ -97,7 +96,7 @@ a {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /*半透明のフィルターをかける*/
+    background-color:#000000;
 }
 .hero-inner {
     position: absolute;
@@ -105,7 +104,8 @@ a {
     top: 50%;
 }
 .hero-logo{
-    width: 200px;
+    width: 80%;
+    /* max-width: 200px; */
     transform: translate(-50%,-50%);
 }
 .demo p{
