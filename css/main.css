@@ -86,8 +86,8 @@ a {
 }
 .hero {
     background-size: cover;
-    padding: 200px 0; /*背景画像の高さを確保*/
-    position: relative; /*中の要素の基準値*/
+    padding: 200px 0;
+    position: relative;
 }
 .hero:before {
     content: '';
@@ -105,7 +105,7 @@ a {
 }
 .hero-logo{
     width: 80%;
-    /* max-width: 200px; */
+    max-width: 200px;
     transform: translate(-50%,-50%);
 }
 .demo p{
