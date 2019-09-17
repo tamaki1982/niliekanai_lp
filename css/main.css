@@ -84,30 +84,6 @@ a {
 .button-line:active{
     background: #368f00;
 }
-.hero {
-    background-size: cover;
-    padding: 200px 0;
-    position: relative;
-}
-.hero:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color:#000000;
-}
-.hero-inner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
-.hero-logo{
-    width: 80%;
-    /* max-width: 200px; */
-    transform: translate(-50%,-50%);
-}
 .demo p{
     font-weight: bold;
     margin: 20px 0px 10px 0px;

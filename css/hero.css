@@ -1,11 +1,10 @@
-.hero3{
-    background: url(img_hero.jpg) center center no-repeat;;
+.hero{
+    background: url(../images/img_hero.jpg) center center no-repeat;;
     background-size: cover;
     padding: 150px 0px;
     position: relative;
-}
-  
-.hero3:before {
+} 
+.hero:before {
     content: '';
     position: absolute;
     top: 0;
@@ -13,21 +12,18 @@
     left: 0;
     bottom: 0;
     background-color:rgba(0,0,0,0.6);
-}
-  
-.hero3-inner {
+} 
+.hero-inner {
     position: absolute;
     left: 50%;
     top: 50%;
-}
-  
-.hero3-logo{
+} 
+.hero-logo{
     width: 60%;
     text-align: center;
     transform: translate(-50%,-50%);
 }
-
-.hero3-back{
+.hero-background{
     background-color: #000000;
 }
 .skew {
