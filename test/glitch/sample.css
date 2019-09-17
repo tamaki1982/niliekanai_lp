@@ -1,6 +1,6 @@
 .hero2{
   background: url(../../images/img_hero-min.jpg) center center no-repeat;
-  height: 200px;
+  /* height: 200px; */
   background-size: cover;
   position: relative;
 }
@@ -12,13 +12,13 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background-color:rgba(0,0,0,0.6);
+  background-color:rgba(0,0,0,1.0);
 }
 
 .glitch {
   font-size: 100px;
   position: relative;
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
 }
   
@@ -88,7 +88,7 @@
     }
   }
   .glitch:after {
-    content: url("../../images/logo_.png");
+    content: url("../../images/logo.png");
     position: absolute;
     left: 2px;
     text-shadow: -1px 0 red;
@@ -164,7 +164,7 @@
     }
   }
   .glitch:before {
-    content: url("../../images/logo_.png");
+    content: url("../../images/logo.png");
     position: absolute;
     left: -2px;
     text-shadow: 1px 0 blue;
